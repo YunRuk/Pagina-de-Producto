@@ -1,0 +1,57 @@
+html {
+        font-family: "Sedan SC", serif;
+        font-weight: 400;
+        font-style: normal;     
+}
+
+body {
+    margin:0;
+    background-image:url("Imagenes/cocktail-3327242.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+#cabecera {
+    background-color:black;
+    padding:0.1rem 0.1rem;
+    opacity:0.9;
+}
+
+h1 {
+    color:white;
+    text-align:center;
+    padding:30px;
+    font-size:3rem;
+}
+#CP { border:1px solid black;
+    border-radius:20px;
+    width:410px;
+    position:relative;
+    top:20px;
+    left:10px;
+    padding:1rem;
+    text-align:center;
+    opacity:0.9;
+}
+#CP:hover {
+    box-shadow:0 0.3rem 0.4rem black;
+}
+section a:visited {
+    color:#efb810;
+}
+
+footer {
+    position:relative;
+    top:40px;
+    background-color:black;
+    padding:1rem 1rem;
+    opacity:0.9;
+}
+
+footer p {
+    color:white;
+}
+footer a {
+    color:white;
+    text-decoration:none;
+}
